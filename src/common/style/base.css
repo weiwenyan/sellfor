@@ -1,0 +1,106 @@
+html,body{
+	line-height: 1;
+	font-weight: 200;
+	font-family: 'PingFang SC','STHeitiSc-Light','Helvetica-Light','arial','sans-serif';
+}
+.clearfix{
+	display: inline-block;
+}
+.clearfix:after{
+	display: block;
+	content: " . ";
+	height: 0;
+	line-height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),only screen and (min-device-pixel-ratio: 1.5)
+{
+	.tab:after {
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);
+	}
+	.goods .menu-wrap .menu-item .text:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);		
+	}
+	.goods .goods-wrap .foods-list .food-item:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);
+	}
+	.shopcart .cartlist-wrap .listcontent .food:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);				
+	}
+	.ratingselect .rating-type:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);				
+	}
+	.food-detail .foodcontent .rating .rating-warp .rating-item:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);		
+	}
+	.ratings .ratinglist-wrap .rating-item:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);			
+	}
+	.seller .overview .desc:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);				
+	}
+	.seller .supports .support-item:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);			
+	}
+	.seller .info .info-item:after{
+		-webkit-transform: scaleY(0.7);
+		transform: scaleY(0.7);			
+	}
+
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio: 2),only screen and (min-device-pixel-ratio: 2)
+{
+	.tab:after {
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+	}
+	.goods .menu-wrap .menu-item .text:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);
+	}
+	.goods .goods-wrap .foods-list .food-item:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);			
+	}
+	.shopcart .cartlist-wrap .listcontent .food:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);				
+	}
+	.ratingselect .rating-type:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);			
+	}
+	.food-detail .foodcontent .rating .rating-warp .rating-item:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);			
+	}
+	.ratings .ratinglist-wrap .rating-item:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);			
+	}
+	.seller .overview .desc:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);			
+	}
+	.seller .supports .support-item:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);		
+	}
+	.seller .info .info-item:after{
+		-webkit-transform: scaleY(0.5);
+		transform: scaleY(0.5);		
+	}
+	
+}

@@ -1,0 +1,14 @@
+/* HTML5 display-role reset for older browsers */
+.boder-1px {
+	position: relative;   
+}
+.boder-1px:after {
+	display: block;
+	position: absolute;
+	left: 0;bottom: 0;
+	width: 100%;
+	content:"";
+	border-top: 1px solid rgba(7.17.27.0.1);
+}
+
+
